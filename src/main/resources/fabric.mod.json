@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "betterwitherskeletondrop",
+	"version": "${version}",
+	"name": "Better Wither Skeleton Drop",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"rkarmaa"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/betterwitherskeletondrop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rkarmaa.witherskeletondrop.BetterWitherSkeletonDrop"
+		],
+		"fabric-datagen": [
+			"net.rkarmaa.witherskeletondrop.BetterWitherSkeletonDropDataGenerator"
+		]
+	},
+	"mixins": [
+		"betterwitherskeletondrop.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "betterwitherskeletondrop:item/wither_skull_fragment"
+  }
+}
